@@ -1,1 +1,0 @@
-# danielramoszayas.github.io
