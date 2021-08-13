@@ -33,7 +33,10 @@ a {
   border: 2px solid white;
   margin-top: 20px;
   margin-bottom: 20px;
+}
 
+.navBar a {
+  color: indigo;
 }
 
 .mainBody {
