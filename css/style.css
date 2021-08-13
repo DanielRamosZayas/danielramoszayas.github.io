@@ -4,17 +4,17 @@ body {
 }
 
 a {
-  color: lime;
+  color: mediumspringgreen;
 }
 
 #header a {
-  color: lime;
+  color: mediumspringgreen;
 }
 
 #header {
   position: sticky;
   background-color: indigo;
-  border:2px solid lime;
+  border:2px solid mediumspringgreen;
   padding: 2%;
   margin: 0%;
   text-align: center;
