@@ -50,9 +50,14 @@ h2 {
     font-size: 8px;
 }
 
+#insideContent h2 {
+  align-items: center;
+}
+
 #insideContent p {
   font-size: 10px;
   float: right;
+  text-align: right;
 }
 
 .homePiece {
