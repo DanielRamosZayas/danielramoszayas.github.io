@@ -44,7 +44,6 @@ h2 {
     background-color: rgba(50,50,50,0.15);
     margin: 20px;
     padding: 10px;
-    height: 600px;
     color: white;
     font-family: Nunito Sans;
     font-weight: 900;
@@ -53,12 +52,14 @@ h2 {
 
 .content h2 p {
   float:left;
-  display: inline;
+  display: flex;
 }
 
 .homePiece {
   display: inline;
   float: right;
+  padding: 10%;
+
 }
 
 /* Style the footer */
