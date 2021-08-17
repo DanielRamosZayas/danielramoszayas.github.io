@@ -50,10 +50,14 @@ h2 {
     font-size: 8px;
 }
 
-.insideContent {
+#insideContent {
   content-align: center;
 }
 
+#insideContent p {
+  font-size: 10px;
+  float: right;
+}
 .content h2 p {
   float:left;
   display: flex;
