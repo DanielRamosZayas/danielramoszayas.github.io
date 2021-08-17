@@ -12,6 +12,7 @@ body {
 h2 {
   font-family: Roboto slab;
   font-weight: 100;
+  font-size: 25px;
 }
 /* Style the top navigation bar */
 .topnav {
@@ -47,10 +48,17 @@ h2 {
     color: white;
     font-family: Nunito Sans;
     font-weight: 900;
+    font-size: 8px;
 }
 
-.homepiece {
-/*  text-align: center; */
+.content h2 p {
+  float:left;
+  display: inline;
+}
+
+.homePiece {
+  display: inline;
+  float: right;
 }
 
 /* Style the footer */
@@ -61,7 +69,7 @@ h2 {
     font-family: Nunito Sans;
     font-weight: 200;
     text-align: right;
-    height: 100px
+    height: 100px;
 }
 
 .footer p {
@@ -70,4 +78,9 @@ h2 {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+.footer img {
+  float:right;
+  margin-top: 20px;
 }
