@@ -50,6 +50,10 @@ h2 {
     font-size: 8px;
 }
 
+.insideContent {
+  content-align: center;
+}
+
 .content h2 p {
   float:left;
   display: flex;
