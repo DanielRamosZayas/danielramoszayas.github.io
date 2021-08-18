@@ -33,6 +33,11 @@ h2 {
     text-decoration: none;
 }
 
+#homeButton {
+  float: right;
+  display: block;
+}
+
 /* Change color on hover */
 .topnav a:hover {
     background-color: #ddd;
