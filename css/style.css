@@ -51,7 +51,7 @@ h2 {
 }
 
 #insideContent h2 {
-  align-items: center;
+  text align: center;
 }
 
 #insideContent p {
