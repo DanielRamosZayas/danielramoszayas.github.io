@@ -76,6 +76,8 @@ h2 {
     font-weight: 200;
     text-align: right;
     height: 100px;
+    width: 100vw
+    position:fixed;
 }
 
 .footer p {
@@ -138,6 +140,8 @@ h2 {
   margin-left: 20px;
 }
 
-#contactImg {
+.contactImg {
   border: 2px solid white;
+  align-content: center;
+  float: right;
 }
