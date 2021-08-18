@@ -24,19 +24,13 @@ h2 {
 }
 
 /* Style the topnav links */
-.topnav a  {
+.topnav a:not(homeButton){
     float: left;
     display: block;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-}
-
-.homeButton img {
-  float: right;
-  display: block;
-  height: 25px;
 }
 
 /* Change color on hover */
@@ -96,3 +90,33 @@ h2 {
   float:right;
   margin-top: 20px;
 }
+
+/* About Me or Bio Section */
+
+.content2 {
+    background-color: rgba(50,50,50,0.15);
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 8px;
+}
+
+.profilePic {
+  float:left;
+  display: inline-block;
+  border:1px dashed white;
+  height: 40%;
+  width: 40%;
+}
+
+.contentBody {
+  display: inline-block;
+  float: left;
+  border: 2px solid white;
+}
+
+/* Portfolio Section */
+
+/* Contact */
