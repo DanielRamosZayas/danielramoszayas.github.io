@@ -24,7 +24,7 @@ h2 {
 }
 
 /* Style the topnav links */
-.topnav a {
+.topnav a  {
     float: left;
     display: block;
     color: #f2f2f2;
@@ -33,9 +33,10 @@ h2 {
     text-decoration: none;
 }
 
-#homeButton {
+.homeButton img {
   float: right;
   display: block;
+  height: 25px;
 }
 
 /* Change color on hover */
