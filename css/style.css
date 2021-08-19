@@ -125,6 +125,7 @@ h2 {
 .contentPortfolio {
   background-color: rgba(50,50,50,0.15);
   margin: 20px;
+  padding:10px;
   color: white;
   font-family: Nunito Sans;
   font-weight: 900;
@@ -170,7 +171,7 @@ footer {
     font-family: Nunito Sans;
     font-weight: 900;
     font-size: 8px;
-    height:200vh;
+    height:110vh;
     display: block;
 }
 
