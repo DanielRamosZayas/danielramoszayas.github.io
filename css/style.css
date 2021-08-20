@@ -82,7 +82,7 @@ h2 {
 
 .viewMoreLink a:hover {
   font-style: italic;
-  background-color: navy;
+  background-color: rgba(0,0,0,.2);
   border: 2px dashed white;
   padding: 5px;
 }
