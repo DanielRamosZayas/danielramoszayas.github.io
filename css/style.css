@@ -71,13 +71,16 @@ h2 {
   justify-content: center;
 }
 
-#viewMoreLink a {
+.viewMoreLink {
+  margin: 10px;
+}
+.viewMoreLink a {
   color: white;
   font-size: 13px;
   font-weight:200;
 }
 
-#viewMoreLink a:hover {
+.viewMoreLink a:hover {
   font-style: italic;
   background-color: navy;
   border: 2px dashed white;
