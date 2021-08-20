@@ -48,6 +48,8 @@ h2 {
     font-family: Nunito Sans;
     font-weight: 900;
     font-size: 8px;
+    height: auto;
+    width: auto;
 }
 
 #insideContent h2 {
