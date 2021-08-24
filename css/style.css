@@ -103,9 +103,9 @@ h2 {
     font-family: Nunito Sans;
     font-weight: 200;
     text-align: right;
-    height: 100vh;
+    height: 30vh;
     width: 100vw;
-    position:fixed;
+
     display: block;
 }
 
