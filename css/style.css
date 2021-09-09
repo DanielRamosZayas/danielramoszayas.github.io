@@ -207,7 +207,7 @@ h2 {
     font-weight: 200;
     text-align: right;
     height: 100px;
-    width: 100vw
+    width: 100vw;
     position:fixed;
     display: block;
     bottom: 0;
@@ -226,7 +226,7 @@ h2 {
   margin-top: 20px;
 }
 
-/* About Me or Bio Section */
+/* About Me or Bio Section *************/
 
 .content2 {
     background-color: rgba(50,50,50,0.15);
@@ -252,19 +252,25 @@ h2 {
   border: 2px solid white;
 }
 
-/* Portfolio Section */
+/* Portfolio Section *************************/
+
+body {
+  margin: 0 auto;
+  background-image: url("../assets/swirl.png");
+  background: rgba(0,0,0,0.6);
+}
 
 .contentPortfolio {
-  background-color: rgba(50,50,50,0.15);
+  //background-color: rgba(50,50,50,0.15);
   margin: 20px;
   padding:10px;
   color: white;
   font-family: Nunito Sans;
   font-weight: 900;
   font-size: 8px;
-  height: 1000px;
-  display: grid;
-  grid-template-columns: auto auto auto;
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 footer {
@@ -277,6 +283,8 @@ footer {
     height: 100px;
     width: 100vw;
     margin-top:35vh;
+    margin-bottom: 0px;
+    position: fixed;
     bottom: 0;
 }
 
