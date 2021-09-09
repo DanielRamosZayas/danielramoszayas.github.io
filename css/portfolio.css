@@ -102,8 +102,11 @@
 
 body {
   margin: 0 auto;
-  background-image: url("../assets/swirl.png");
+  background-image: url("../assets/swirl.png") ;
+  background-repeat:no-repeat;
+
   height: 100%;
+
 }
 
 h2 {
@@ -136,68 +139,6 @@ h2 {
     color: black;
 }
 
-/* Style the content */
-.content {
-    background-color: rgba(50,50,50,0.15);
-    margin: 20px;
-    padding: 10px;
-    color: white;
-    font-family: Urbanist;
-    font-weight: 900;
-    font-size: 8px;
-    height: auto;
-    width: auto;
-    text-align: center;
-}
-
-.insideContent h2 {
-  text align: center;
-  font-size:80px;
-
-}
-
-.insideContent h1 {
-  font-weight: 100;
-  font-size: 40px;
-}
-
-.insideContent p {
-  font-size: 16px;
-  text-align: center;
-  font-weight: 100;
-  justify-content: center;
-}
-
-.hereIs {
-  background-color: rgba(100, 20, 20, 0.1);
-  display:none;
-}
-
-.viewMoreLink {
-  margin: 10px;
-
-}
-.viewMoreLink a {
-  color: white;
-  font-size: 13px;
-  font-weight:200;
-  font-size: 20px;
-}
-
-.viewMoreLink a:hover {
-  font-style: italic;
-  background-color: rgba(0,0,0,.2);
-  border: 2px solid white;
-  border-radius: 3%;
-  padding: 5px;
-}
-
-.homePiece {
-  display: inline;
-  float: right;
-  padding: 10%;
-
-}
 
 /* Style the footer */
 .footer {
@@ -227,57 +168,58 @@ h2 {
   margin-top: 20px;
 }
 
-/* About Me or Bio Section *************/
+/* Portfolio Section *************************/
 
-.content2 {
-    background-color: rgba(50,50,50,0.15);
-    margin: 20px;
-    padding: 10px;
-    color: white;
-    font-family: Nunito Sans;
-    font-weight: 900;
-    font-size: 8px;
-    height: 75vh;
+
+.contentPortfolio {
+  //background-color: rgba(50,50,50,0.15);
+  margin: 20px;
+  margin-bottom:20vh;
+  padding:10px;
+  color: white;
+  font-family: Nunito Sans;
+  font-weight: 900;
+  font-size: 8px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#profilePic {
-  float:left;
-  display: inline-block;
-  border:1px dashed white;
-  margin-right: 50px;
+.contentItem {
+    flex-grow: auto;
 }
 
-.contentBody {
-  display: inline-block;
-  float: left;
-  border: 2px solid white;
-}
-
-
-/* Contact */
-
-.contentContact {
-    background-color: rgba(50,50,50,0.15);
-    margin: 20px;
-    padding: 10px;
-    color: white;
-    font-family: Nunito Sans;
-    font-weight: 900;
-    font-size: 8px;
-    height:110vh;
-    display: block;
+footer {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  font-family: Urbanist;
+  font-weight: 200;
+  text-align: right;
+  height: 100px;
+  width: 100%;
+  margin-top: 1000px;
+  display: block;
+  bottom: 0;
 }
 
 .footerPortfolio {
+  display:block;
+  position:static;
+  bottom:0;
+}
+
+.footerPortfolio p {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footerPortfolio img {
+  float:right;
   margin-top: 20px;
-}
-
-.contentContact input {
-  margin-left: 20px;
-}
-
-#contactImg {
-  border: 2px solid white;
-  align-content: center;
-  justify-content: center;
 }
