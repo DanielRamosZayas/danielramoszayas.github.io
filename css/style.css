@@ -264,6 +264,7 @@ body {
 .contentPortfolio {
   //background-color: rgba(50,50,50,0.15);
   margin: 20px;
+  margin-bottom:20vh;
   padding:10px;
   color: white;
   font-family: Nunito Sans;
