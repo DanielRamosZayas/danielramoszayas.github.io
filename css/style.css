@@ -190,10 +190,11 @@ h3 {
   font-weight:200;
   border: 1px solid white;
   padding:5px;
+  text-decoration: none;
 }
 
 .viewMoreLink a:hover {
-  font-style: italic;
+  //font-style: italic;
   background-color: rgba(0,0,0,.2);
   border: 1px solid white;
   padding: 5px;
