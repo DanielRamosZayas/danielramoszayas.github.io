@@ -29,6 +29,10 @@ textarea {
   font-size: 12px;
 }
 
+p {
+  font-family: urbanist;
+}
+
 .topnav {
     overflow: hidden;
     background-color: #333;
