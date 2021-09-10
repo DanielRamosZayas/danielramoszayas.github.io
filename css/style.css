@@ -111,6 +111,10 @@ h2 {
   font-weight: 100;
   font-size: 45px;
 }
+
+h3 {
+  font-size: 30px;
+}
 /* Style the top navigation bar */
 .topnav {
     overflow: hidden;
@@ -182,14 +186,16 @@ h2 {
 }
 .viewMoreLink a {
   color: white;
-  font-size: 13px;
+  font-size: 20px;
   font-weight:200;
+  border: 1px solid white;
+  padding:5px;
 }
 
 .viewMoreLink a:hover {
   font-style: italic;
   background-color: rgba(0,0,0,.2);
-  border: 2px dashed white;
+  border: 1px solid white;
   padding: 5px;
 }
 
