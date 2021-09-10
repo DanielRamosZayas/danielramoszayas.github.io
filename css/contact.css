@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@200;500&family=Roboto+Slab:wght@100;200&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-image: url("../assets/swirl.png");
+}
+
+h1 {
+  font-family: roboto slab;
+}
+
+h2 {
+  font-family: Roboto slab;
+  font-weight: 100;
+  font-size: 45px;
+}
+
+label {
+  font-family: urbanist;
+  font-size: 12px;
+}
+
+textarea {
+  font-family: urbanist;
+  font-size: 12px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    font-family: Urbanist;
+    font-weight: 200;
+    text-align: right;
+}
+
+/* Style the topnav links */
+.topnav a:not(#homeButton){
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a {
+  color:white;
+}
+
+/* Change color on hover */
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav img:hover {
+  display: inline-block;
+  text-align: center;
+  background-color: gray;
+}
+
+.contentContact {
+  display: flex;
+  flex-wrap: wrap;
+  //border: 4px solid white;
+}
+
+.form {
+    background-color: rgba(50,50,50,0.15);
+    margin: 20px;
+    padding: 10px;
+    color: white;
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 8px;
+    height:60vh;
+    display: block;
+    width: 28vh;
+}
+
+.footerPortfolio {
+  margin-top: 20px;
+}
+
+.form input {
+  margin-left: 20px;
+}
+
+.contactImg {
+  //display: inline-block;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-family: Nunito Sans;
+    font-weight: 200;
+    text-align: right;
+    height: 100px;
+    width: 100vw;
+
+    display: block;
+}
+
+.footer p {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.footer img {
+  float:right;
+  margin-top: 20px;
+}
+
+/*----MEDIA QUERIES----*/
+
+@media only screen and (max-width:640px) {
+
+  .contactImg img {
+    width: 200px;
+    height: 200px;
+  }
+
+  .footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width:641px) and (max-width:1007px){
+
+    .form {
+      width: 36vw;
+    }
+
+
+  .contactImg img {
+    width: 340px;
+    height: 340px;
+  }
+
+  .footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+@media only screen and (min-width:1008px){
+  .form {
+    width: 50vw;
+    text-align: center;
+  }
+
+
+  .contactImg img {
+    width: 400px;
+    height: 400px;
+  }
+
+  .footer {
+    display: block;
+    position:fixed;
+    bottom: 0;
+  }
+}

@@ -7,8 +7,6 @@
 body {
   margin: 0 auto;
   background-image: url("../assets/swirl.png") ;
-  background-repeat:no-repeat;
-
   height: 100%;
 
 }
@@ -31,16 +29,25 @@ h2 {
 .topnav a:not(#homeButton){
     float: left;
     display: block;
-    color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+.topnav a {
+  color:white;
 }
 
 /* Change color on hover */
 .topnav a:hover{
     background-color: #ddd;
     color: black;
+}
+
+.topnav img:hover {
+  display: inline-block;
+  text-align: center;
+  background-color: gray;
 }
 
 
@@ -70,13 +77,13 @@ h2 {
 .footer img {
   float:right;
   margin-top: 20px;
+  background-color: #333;
 }
 
 /* Portfolio Section *************************/
 
 
 .contentPortfolio {
-  //background-color: rgba(50,50,50,0.15);
   margin: 20px;
   margin-bottom:20vh;
   padding:10px;
@@ -93,7 +100,6 @@ h2 {
 }
 
 .contentItem {
-
 }
 
 .images {
@@ -109,8 +115,9 @@ footer {
   text-align: right;
   height: 100px;
   width: 100%;
-  margin-top: 1000px;
+  margin-top: 1000vh;
   display: block;
+  position: fixed;
   bottom: 0;
 }
 
@@ -131,4 +138,26 @@ footer {
 .footerPortfolio img {
   float:right;
   margin-top: 20px;
+}
+
+@media only screen and (max-width:640px) {
+  .contentItem {
+    padding-bottom: 20vh;
+  }
+}
+
+@media only screen and (min-width:641px) and (max-width:1007px){
+  .contentItem {
+    padding-bottom: 15vh;
+  }
+}
+
+@media only screen and (min-width:1008px){
+  .contentPortfolio {
+    margin-bottom: 100vh;
+    height: 209vh;
+  }
+  .contentItem {
+    padding: 1vh;
+  }
 }
