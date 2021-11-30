@@ -107,7 +107,7 @@
 
 body {
   margin: 0;
-  background-image: url("../assets/swirl.jpg");
+  background-color: white;
 }
 
 h2 {
@@ -155,10 +155,11 @@ h3 {
 
 /* Style the content */
 .content {
-    background-color: rgba(50,50,50,0.15);
+    /*background-color: rgba(50,50,50,0.15);*/
+    background-color:white;
     margin: 20px;
     padding: 10px;
-    color: white;
+    color: rgba(50,50,50,1);
     font-family: urbanist;
     font-weight: 900;
     font-size: 8px;
